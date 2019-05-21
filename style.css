@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.cuadrado {
+    width: 250px;
+    height: 100px;
+    background-color: #6F8AE8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: #EB4CE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 0px 0px #87C1FF;
+    transition: 0.5s;
+    color: #87c1ff;
+}
+.button:hover {
+width: 100px;
+height: 50px;
+background-color:#87C1FF;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: -5px -5px 0px 0px #EB4CE5 ;
+transition: 0.5s;
+color: #EB4CE5;
+-ms-transform: translate(-15px)
+}
