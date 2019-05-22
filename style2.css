@@ -1,0 +1,17 @@
+@keyframes chichita {
+    0% {height: 100px;}
+    50% {height: 600px;}
+    100% {height: 50px;}
+}
+
+
+.chichita {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    animation-name: chichita;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+
+}
